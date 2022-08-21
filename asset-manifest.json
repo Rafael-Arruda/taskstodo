@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/taskstodo/static/js/main.0f2bb3ea.js",
+    "index.html": "/taskstodo/index.html",
+    "main.0f2bb3ea.js.map": "/taskstodo/static/js/main.0f2bb3ea.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0f2bb3ea.js"
+  ]
+}
