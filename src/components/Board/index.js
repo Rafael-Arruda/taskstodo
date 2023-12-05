@@ -9,9 +9,9 @@ export default function Board(){
 
     return(
         <Container>
-            <List title="To do" list={toDo}/>
-            <List title="Doing" list={doing}/>
-            <List title="Done" list={done}/>
+            <List title="To do" status="do" list={toDo}/>
+            <List title="Doing" status="doing" list={doing}/>
+            <List title="Done" status="done" list={done}/>
         </Container>
     )
 }

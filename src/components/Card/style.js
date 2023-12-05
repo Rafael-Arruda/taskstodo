@@ -13,6 +13,7 @@ export const Container = styled.div`
     justify-content: space-between;
     transition: 0.3s all;
     position: relative;
+    cursor: grab;
 
     :hover {
         transform: scale(1.03);

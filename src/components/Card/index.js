@@ -37,9 +37,17 @@ export default function Card(props){
         setList(currentList);
     }
 
+    function dragStart(ev, id) {
+        console.log('dragstart:', id);
+        ev.dataTransfer.setData("id", id);
+    }
+
     return(
         <>
-            <Container>
+            <Container
+                draggable
+                onDragStart={(e) => dragStart(e, props.id)}
+            >
                 <Label status={props.item.status}></Label>
                 <h4>{props.item.task}</h4>
                 <div className="area-buttons">
